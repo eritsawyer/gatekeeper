@@ -1,6 +1,6 @@
 # Gatekeeper
 
-An automated, zero-UI backend gateway and sovereign identity protocol designed for local execution via PowerShell bridge on Android architectures. Gatekeeper translates structural system events into hardened, cryptographically verified pipeline states without the footprint of visual overhead.
+An automated, zero-UI backend gateway and identity protocol designed for local execution via PowerShell bridge on Android architectures. Gatekeeper translates structural system events into hardened, cryptographically verified pipeline states without the footprint of visual overhead.
 
 ---
 
@@ -34,7 +34,7 @@ This engine is optimized for native execution environments using a PowerShell-to
 ```powershell
 # Direct invocation via PowerShell Local Bridge Context
 $Intent = "RESERVATION_SCREEN"
-$Payload = '{"actor": "Sovereign_Engine", "payload_metric": 1.0}'
+$Payload = '{"actor": "Sawyer_Engine", "payload_metric": 1.0}'
 
 # Execute headless logic mapping directly to local registry hooks
 $EngineOutput = python3 gatekeeper_engine.py $Intent $Payload
